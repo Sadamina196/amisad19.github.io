@@ -1,0 +1,156 @@
+#principal{
+    background-color: white;
+    margin: auto;
+    padding: 0px;
+   
+}
+#entete{
+    background-color: rgb(1, 1, 58);
+    color: white;
+    height: 100px;
+    background-size: contain;
+    font-family: sans-serif;
+}
+
+#contenu{
+    background-image: url(M.jpg);
+    color: white;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    float: right;
+    margin-top: 20px;  
+    margin-right: 10px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+#menu{
+    background-image: url(https://perezartsplastiques.files.wordpress.com/2013/09/fond-bleu-anime.gif);
+    background-size: cover;
+    height: 1200px;
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+    width: calc(25% - 20px);
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    
+  }
+  img{
+    width: 500px;
+    height: 1000px;
+  }
+  
+  .LTI {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: height 2s;
+    font-size: 25px;
+  }
+  
+  .image:hover .LTI{
+    height: 100%;
+  }
+  
+  .LTI p {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 20px;
+  }
+  #footer{
+    background-color: #12172b;
+    font-family: "poppins", sans-serif;
+    color: white;
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  .profils{
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  .profil{
+    flex-basis: 260px;
+    font-size: 25px;
+  }
+  .profil img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .profil:hover .profil-img{
+  filter: grayscale(0);
+  }
+  .nom{
+    margin-top: 30px;
+    font-size: 30px
+  }
+  .profil h5{
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: white;
+  }
+  .profil p{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  h3{
+    font-size: 30px;
+  }
+  #footer a{
+    margin-top: 0px;
+    margin-left: 0px;
+   float: none;
+   color: blue;
+   font-size: 30px;
+  }
+  #footer a:hover{
+    background-color: transparent;
+    border: none;
+    color: aqua;
+  }
+  h5{
+    font-size: 30px;
+  }
+  .logo{
+    font-size: 30px;
+  }
+  
